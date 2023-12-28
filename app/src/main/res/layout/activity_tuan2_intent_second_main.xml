@@ -17,11 +17,11 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
             android:text="CALCULATER"
             android:textSize="28sp"
-            android:textStyle="bold"
-            android:layout_gravity="center"
-            android:layout_marginBottom="16dp"/>
+            android:textStyle="bold" />
 
 
         <Button
@@ -32,6 +32,17 @@
             android:backgroundTint="#6200EE"
             android:text="Sum:"
             android:textColor="#ffffff"
-            android:textSize="24sp" />
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:layout_gravity="center"
+            android:layout_below="@id/resultTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp"/>
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

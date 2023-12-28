@@ -17,18 +17,20 @@
             android:exported="false" />
         <activity
             android:name=".tuan2.Tuan2IntentFirstMainActivity"
-            android:exported="false" />
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".tuan1.Tuan1MainActivity"
             android:exported="false" />
         <activity
             android:name=".tuan1.MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 
