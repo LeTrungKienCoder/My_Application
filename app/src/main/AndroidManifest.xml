@@ -13,26 +13,32 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".tuan2.Tuan2ListViewMainActivity"
+            android:name=".tuan3.Tuan3ListItemMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan3.Tuan3ListViewCustomMainActivity"
             android:exported="true" >
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
+        <activity
+            android:name=".tuan2.Tuan2ListViewMainActivity"
+            android:exported="false"/>
         <activity
             android:name=".tuan2.Tuan2IntentSecondMainActivity"
             android:exported="false" />
         <activity
             android:name=".tuan2.Tuan2IntentFirstMainActivity"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".tuan1.Tuan1MainActivity"
             android:exported="false" />
         <activity
             android:name=".tuan1.MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>
